@@ -17,3 +17,4 @@ COPY . .
 
 EXPOSE 5555
 CMD [ "npm", "start" ]
+
