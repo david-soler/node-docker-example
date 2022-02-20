@@ -15,6 +15,7 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+#EXPOSE CONTAINER PORT
 EXPOSE 5555
 CMD [ "npm", "start" ]
 
