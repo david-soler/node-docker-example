@@ -1,4 +1,5 @@
 const http = require('http');
+// this app will listen by default at port 5555
 const port = process.env.PORT || 5555;
 
 const server = http.createServer((req, res) => {
